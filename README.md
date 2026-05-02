@@ -15,7 +15,7 @@ It takes less than a minute to deploy the complete visible tech Manager on your 
 
 ### Primary Method (Recommended)
 ```bash
-curl -L -o install.sh "https://raw.githubusercontent.com/iddie09/visibletech-manager/main/install.sh" && chmod +x install.sh && sudo ./install.sh && rm install.sh
+curl -L -o install.sh "https://raw.githubusercontent.com/wavy07/manage/main/install.sh" && chmod +x install.sh && sudo ./install.sh && rm install.sh
 ```
 
 
