@@ -40,8 +40,8 @@ fi
  echo -e "${C_WHITE}⚙️ Installing VISIBLE TECH MANAGER........${C_RESET}"
 
 # URLs (IPv4 forced to avoid GitHub IPv6 issues)
-MENU_URL="https://raw.githubusercontent.com/iddie09/visibletech-manager/main/menu.sh"
-SSHD_URL="https://raw.githubusercontent.com/iddie09/visibletech-manager/main/ssh"
+MENU_URL="https://raw.githubusercontent.com/wavy07/manage/main/menu.sh"
+SSHD_URL="https://raw.githubusercontent.com/wavy07/manage/main/ssh"
 
 # Install menu
 wget -4 -q -O /usr/local/bin/menu "$MENU_URL"
