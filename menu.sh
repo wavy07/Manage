@@ -707,13 +707,14 @@ while true; do
                 bw_info="${used_gb}/${bandwidth_gb} GB used | ${remain_gb} GB left"
             fi
 
-             banner_content="<br><font color=\"white\"><b>  🆅🅸🆂🅸🅱🅻🅴☠🆃🅴🅲🅷📏🅼🅰🅽🅰🅶🅴🆁 2026 </b></font><br><br>"
-            banner_content+="<br><font color=\"red\"><b> ＦＯＵＮＤＥＲ ＯＦ ＳＣＲＩＰＴ-.𝐢𝐧𝐜🦜 </b></font><br><br>"
-            banner_content+="<br><font color=\"orange\"><b>       ✨ 𝔸ℂℂ𝕆𝕌ℕ𝕋 𝕊𝕋𝔸𝕋𝕌𝕊 ✨     </b></font><br><br>"
-            banner_content+="<font color=\"white\">👤 <b>𝘜𝘚𝘌𝘙𝘕𝘈𝘔𝘌 :</b> $user</font><br>"
-            banner_content+="<font color=\"green\">📅 <b>E᙭ᑭIᖇᗩTIOᑎ :</b> $expiry ($days_left)</font><br>"
-            banner_content+="<font color=\"cyan\">📊 <b>ᗷᗩᑎᗪᗯIᗪTᕼ :</b> $bw_info</font><br>"
-            banner_content+="<font color=\"purple\">🖲️ <b> 𝘓𝘐𝘝𝘌 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘐𝘖𝘕𝘚 :</b> $online_count/$limit</font><br><br>"
+             banner_content="<br><font color=\"white\"><b>🆅🅸🆂🅸🅱🅻🅴 🆃🅴🅲🅷 🅻🅸🅼🅸🆃🅴🆁</b></font><br><br>"
+            banner_content+="<br><font color=\"red\"><b> VODACOM ,HALOTEL AND ESIM VPN AVAILABLE  </b></font><br><br>"
+            banner_content+="<br><font color=\"white\"><b> 𝟐𝟎𝐦𝐛/𝐬 𝐧𝐨𝐰 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐜𝐡𝐞𝐜𝐤 <a href=\"https://wa.me/255689000656?text=Nahitaji%20server\" target=\"_blank\" style=\"color:#00ffcc;text-decoration:underline;\">.inc🦜</a></b></font><br><br>"
+            banner_content+="<br><font color=\"blue\"><b>       ✨ 🅄🅂🄴🅁 🄳🅁🅃🄰🄸🄻✨     </b></font><br><br>"
+            banner_content+="<font color=\"white\">👤 <b>🅰🅲🅲🅾🆄🅽🆃 🅽🅰🅼🅴 :</b> $user</font><br>"
+            banner_content+="<font color=\"green\">📅 <b>🅔🅧🅟🅘🅡🅔 🅣🅘🅜🅔 :</b> $expiry ($days_left)</font><br>"
+            banner_content+="<font color=\"cyan\">📊 <b>🇩 🇦 🇹 🇦 - 🇺 🇸 🇪 🇩  :</b> $bw_info</font><br>"
+            banner_content+="<font color=\"purple\">🖲️ <b> ᥴ᥆ᥒᥒᥱᥴ𝗍ᥱძ ⍴ᥱ᥆⍴ᥣᥱ :</b> $online_count/$limit</font><br><br>"
             write_banner_if_changed "$user" "$banner_content"
         fi
 
